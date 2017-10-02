@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+        .just-padding {
+  			padding: 20px;
+		}
+
+		.list-group.list-group-root {
+  			padding: 0;
+  			overflow: hidden;
+		}
+
+		.list-group.list-group-root .list-group {
+ 			margin-bottom: 0;
+		}
+
+		.list-group.list-group-root .list-group-item {
+  			border-radius: 0;
+  			border-width: 1px 0 0 0;
+		}
+
+        .list-group.list-group-root > .list-group-item:first-child {
+  			border-top-width: 0;
+		}
+	
+		.list-group.list-group-root > .list-group > .list-group-item {
+  			padding-left: 30px;
+		}
+
+		.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  			padding-left: 50px;
+            
+		}
+
+		.list-group-item .glyphicon {
+  			margin-right: 5px;
+		}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Hello Nikki Test Site</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li><a href="/hello_nikki.html">Home</a></li>
+        <li><a href="/work.html">Work</a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Map<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chapter</a></li>
+            <li><a href="#">Japan I</a></li>
+            <li><a href="#">Japan II</a></li>
+            <li><a href="#">Korea</a></li>
+            <li><a href="#">China I</a></li>
+            <li><a href="#">China II</a></li>
+            <li><a href="#">China III</a></li>
+            <li><a href="#">Thailand I</a></li>
+            <li><a href="#">Thailand II</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">Sri Lanka</a></li>
+            <li><a href="#">Russia</a></li>
+            <li><a href="#">Finland</a></li>
+            <li><a href="#">Danmark</a></li>
+            <li><a href="#">The UK I</a></li>
+            <li><a href="#">The UK II</a></li>
+            <li><a href="#">France</a></li>
+            <li><a href="#">Germany</a></li>
+            <li><a href="#">Switzerland</a></li>
+            <li><a href="#">Austria</a></li>
+            <li><a href="#">Italy</a></li>
+            <li><a href="#">Spain</a></li>
+            <li><a href="#">Egypt</a></li>
+            <li><a href="#">Kenya</a></li>
+            <li><a href="#">South Africa</a></li>
+            <li><a href="#">Australia I</a></li>
+            <li><a href="#">Australia II</a></li>
+          </ul>
+        </li>
+          
+        <li class="dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sky Challenge<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="active"><a href="/sky_tower.html">Sky Tower<span class="sr-only">(current)</span></a></li>
+            <li class="divider"></li>
+            <li><a href="#">Fantasy Tower</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Event<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/resort.html">Resort</a></li>
+            <!--<li><a href="#">Fantasy Tower</a></li>-->
+            <li class="divider"></li>
+            <li><a href="#">To be continued...</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Illustrations</a></li>
+      </ul>
+      <ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <div class="container">  
+        <div class="just-padding">
+            
+        	<div class="list-group list-group-root well">
+  				<a href="#A-classical-and-idyllic-beauty" class="list-group-item" data-toggle="collapse">
+					<i class="glyphicon glyphicon-chevron-right"></i>A classical and idyllic beauty
+  				</a>
+  				<div class="list-group collapse" id="A-classical-and-idyllic-beauty">
+    				<a href="#A-classical-and-idyllic-beauty-A" class="list-group-item" data-toggle="collapse">
+      					<i class="glyphicon glyphicon-chevron-right"></i>A
+    				</a>
+    				<div class="list-group collapse" id="A-classical-and-idyllic-beauty-A">
+      					<a href="#" class="list-group-item">36330</a>
+            		</div>
+            	</div>
+                
+  			<a href="#A-dress-may-remind-you-of-childhood" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>A dress may remind you of childhood
+  			</a>
+  			<div class="list-group collapse" id="A-dress-may-remind-you-of-childhood">
+    			<a href="#A-dress-may-remind-you-of-childhood-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+    			<div class="list-group collapse" id="A-dress-may-remind-you-of-childhood-A">
+      				<a href="#" class="list-group-item">31223</a>
+                    <a href="#" role="button" data-toggle="modal" data-target="#childhood_34470" class="list-group-item">34470 <i class="fa fa-file-image-o"></i></a>
+						<div id="childhood_34470" class="modal fade" tabindex="-1" role="dialog">
+  							<div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="/childhood_34470.png" class="img-responsive">
+                                    </div>
+                        		</div>
+                      		</div>
+                    	</div>
+                        
+                        
+                    <a href="#" class="list-group-item">36133</a>
+    			</div>
+            </div>
+                
+  			<a href="#A-dress-may-keep-you-warm-in-winter" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>A dress may keep you warm in winter
+  			</a>
+  			<div class="list-group collapse" id="A-dress-may-keep-you-warm-in-winter">
+    			<a href="#A-dress-may-keep-you-warm-in-winter-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="A-dress-may-keep-you-warm-in-winter-S">
+      				<a href="#" class="list-group-item">44157</a>
+    			</div>
+	  		</div>
+                
+            <a href="#A-magical-girl-from-foreign-land" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>A magical girl from foreign land
+  			</a>
+  			<div class="list-group collapse" id="A-magical-girl-from-foreign-land">
+    			<a href="#A-magical-girl-from-foreign-land-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="A-magical-girl-from-foreign-land-S">
+      				<a href="#" class="list-group-item">38654</a>
+    			</div>
+	  		</div>
+                
+            <a href="#A-Sedate-gentleman" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>A Sedate gentleman
+  			</a>
+  			<div class="list-group collapse" id="A-Sedate-gentleman">
+    			<a href="#A-Sedate-gentleman-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="A-Sedate-gentleman-A">
+      				<a href="#" class="list-group-item">28981</a>
+    			</div>
+                <a href="#A-Sedate-gentleman-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="A-Sedate-gentleman-S">
+      				<a href="#" class="list-group-item">38228</a>
+    			</div>
+	  		</div>
+                
+            <a href="#African-style-dress" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>African style dress
+  			</a>
+  			<div class="list-group collapse" id="African-style-dress">
+    			<a href="#African-style-dress-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+    			<div class="list-group collapse" id="African-style-dress-S">
+                    <a href="#" role="button" data-toggle="modal" data-target="#african_38751" class="list-group-item">38751 <i class="fa fa-file-image-o"></i></a>
+						<div id="african_38751" class="modal fade" tabindex="-1" role="dialog">
+  							<div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="/african_38751.png" class="img-responsive">
+                                    </div>
+                        		</div>
+                      		</div>
+                    	</div>
+                        
+                        
+                    <a href="#" class="list-group-item">36133</a>
+    			</div>
+            </div>
+                
+            <a href="#An-earnest-study-master" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>An earnest study master
+  			</a>
+  			<div class="list-group collapse" id="An-earnest-study-master">
+    			<a href="#An-earnest-study-master-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="An-earnest-study-master-A">
+      				<a href="#" class="list-group-item">30574</a>
+    			</div>
+                <a href="#An-earnest-study-master-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="An-earnest-study-master-S">
+      				<a href="#" class="list-group-item">44829</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Brightly-colored-dress" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Brightly colored dress
+  			</a>
+  			<div class="list-group collapse" id="Brightly-colored-dress">
+    			<a href="#Brightly-colored-dress-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="An-earnest-study-master-A">
+      				<a href="#" class="list-group-item">32637</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Casual-mens-wear" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Casual men's wear
+  			</a>
+  			<div class="list-group collapse" id="Casual-mens-wear">
+    			<a href="#Casual-mens-wear-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Casual-mens-wear-A">
+      				<a href="#" class="list-group-item">28998</a>
+    			</div>
+                <a href="#Casual-mens-wear-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="Casual-mens-wear-S">
+      				<a href="#" class="list-group-item">45439</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Cool-summer-sunscreen-dress" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Cool summer sunscreen dress
+  			</a>
+  			<div class="list-group collapse" id="Cool-summer-sunscreen-dress">
+                <a href="#Cool-summer-sunscreen-dress-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="Cool-summer-sunscreen-dress-S">
+      				<a href="#" class="list-group-item">43328</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Cute-sweet-style" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Cute sweet style
+  			</a>
+  			<div class="list-group collapse" id="Cute-sweet-style">
+                <a href="#Cute-sweet-style-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="Cute-sweet-style-S">
+      				<a href="#" class="list-group-item">43564</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Dress-like-an-ancient-swordman" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Dress like an ancient swordman
+  			</a>
+  			<div class="list-group collapse" id="Dress-like-an-ancient-swordman">
+                <a href="#Dress-like-an-ancient-swordman-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Dress-like-an-ancient-swordman-A">
+      				<a href="#" class="list-group-item">27284</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Dress-like-an-European-girl" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Dress like an European girl
+  			</a>
+  			<div class="list-group collapse" id="Dress-like-an-European-girl">
+                <a href="#Dress-like-an-European-girl-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Dress-like-an-European-girl-A">
+      				<a href="#" class="list-group-item">31289</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Dress-like-spring-has-come" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Dress like spring has come
+  			</a>
+  			<div class="list-group collapse" id="Dress-like-spring-has-come">
+                <a href="#Dress-like-spring-has-come-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Dress-like-spring-has-come-A">
+      				<a href="#" class="list-group-item">30535</a>
+                    <a href="#" class="list-group-item">32487</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Fresh-and-idyllic-style" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Fresh and idyllic style
+  			</a>
+  			<div class="list-group collapse" id="Fresh-and-idyllic-style">
+                <a href="#Fresh-and-idyllic-style-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Fresh-and-idyllic-style-A">
+      				<a href="#" class="list-group-item">29881</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Girl-idol" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Girl idol
+  			</a>
+  			<div class="list-group collapse" id="Girl-idol">
+                <a href="#Girl-idol-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Girl-idol-A">
+      				<a href="#" class="list-group-item">35844</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Lovely-maid-costume" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Lovely maid costume
+  			</a>
+  			<div class="list-group collapse" id="Girl-idol">
+                <a href="#Lovely-maid-costume-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Lovely-maid-costume-A">
+      				<a href="#" class="list-group-item">37263</a>
+    			</div>
+	  		</div>
+            <div class="list-group collapse" id="Girl-idol">
+                <a href="#Lovely-maid-costume-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="Lovely-maid-costume-S">
+      				<a href="#" class="list-group-item">46761</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Mature-and-professional-women" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Mature and professional women
+  			</a>
+  			<div class="list-group collapse" id="Mature-and-professional-women">
+                <a href="#Mature-and-professional-women-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="Mature-and-professional-women-S">
+      				<a href="#" class="list-group-item">43568</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Noble-and-holy-goddess" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Noble and holy goddess
+  			</a>
+  			<div class="list-group collapse" id="Noble-and-holy-goddess">
+                <a href="#Noble-and-holy-goddess-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Noble-and-holy-goddess-A">
+      				<a href="#" class="list-group-item">34031</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Rebellious-Punk-girl" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Rebellious Punk girl
+  			</a>
+  			<div class="list-group collapse" id="Rebellious-Punk-girl">
+                <a href="#Rebellious-Punk-girl-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Rebellious-Punk-girl-A">
+      				<a href="#" class="list-group-item">32422</a>
+    			</div>
+	  		</div>
+            <div class="list-group collapse" id="Rebellious-Punk-girl">
+                <a href="#Rebellious-Punk-girl-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="Rebellious-Punk-girl-S">
+      				<a href="#" class="list-group-item">50073</a>
+    			</div>
+	  		</div>
+                
+            <a href="#Sexy-but-not-overexposed-dress" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Sexy but not overexposed dress
+  			</a>
+  			<div class="list-group collapse" id="Sexy-but-not-overexposed-dress">
+                <a href="#Sexy-but-not-overexposed-dress-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Sexy-but-not-overexposed-dress-A">
+      				<a href="#" class="list-group-item">29397</a>
+    			</div>
+	  		</div>
+            
+            <a href="#Sexy-party-queen" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>Sexy party queen
+  			</a>
+  			<div class="list-group collapse" id="Sexy-party-queen">
+                <a href="#Sexy-party-queen-A" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>A
+    			</a>
+                <div class="list-group collapse" id="Sexy-party-queen-A">
+      				<a href="#" class="list-group-item">31734</a>
+    			</div>
+	  		</div>
+                
+            <a href="#The-dress-of-Chinese-style" class="list-group-item" data-toggle="collapse">
+    			<i class="glyphicon glyphicon-chevron-right"></i>The dress of Chinese style
+  			</a>
+  			<div class="list-group collapse" id="The-dress-of-Chinese-style">
+                <a href="#The-dress-of-Chinese-style-S" class="list-group-item" data-toggle="collapse">
+      				<i class="glyphicon glyphicon-chevron-right"></i>S
+    			</a>
+                <div class="list-group collapse" id="The-dress-of-Chinese-style-S">
+      				<a href="#" class="list-group-item">37366</a>
+    			</div>
+	  		</div>
+            
+                
+        </div>
+        </div>
+        
+        <div class="container">
+        <hr/>
+            <footer>&copy;2016 YMZ</footer>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>  </body>
+</html>
